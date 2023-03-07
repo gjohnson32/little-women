@@ -1,0 +1,314 @@
+/* Grid */
+
+body {
+    /* background-image: linear-gradient(rgb(109, 109, 109) 1px, transparent 1px);
+    background-size: auto 1.5rem; */
+
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p,
+h6,
+figcaption{
+    margin-bottom: 1.5rem;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Gloock', serif;
+}
+
+p,
+a,
+figcaption,
+h6 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 7.594rem;
+    line-height: 0.8;
+}
+
+h2 {
+    font-size: 5.063rem;
+    line-height: 1.18;
+}
+
+h3 {
+    font-size: 2.25rem;
+    line-height: 1.33;
+}
+
+/* Styling */
+
+body {
+    background-color: rgb(241, 237, 205);
+}
+
+h2,
+h3 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.partial {
+    margin: 0 auto;
+    width: 65%;
+}
+
+.full {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+svg {
+    height: 4.5rem;
+}
+
+svg path {
+    fill: rgba(0,0,0,0.6);
+}
+
+/* Header */
+
+header {
+    background: url('../img/header.jpg') center / cover no-repeat;
+    height: 39rem;
+    margin-bottom: 3rem;
+    padding-top: 6rem;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+header > div {
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(1px);
+    padding: 1.5rem;
+    border-radius: 3px;
+    width: 70%;
+    margin:  5% auto;
+}
+
+header h1 {
+    text-align: left;
+    letter-spacing: 10px;
+}
+
+header p {
+    font-size: 2.25rem;
+    line-height: 1.33;
+    text-align: right;
+    margin: 0;
+}
+
+/* Intro */
+
+.intro > div {
+    margin: auto;
+    display: flex;
+}
+
+.intro > div > div:nth-child(1) {
+    width: 50%;
+    margin-right: 3.5rem;
+    margin-bottom: 1.5rem;
+    height: 39rem;
+}
+
+figure {
+    width: 50%;
+    text-align: center;
+}
+
+.figure{
+    background: url('../img/march-sisters.jpg') top / cover no-repeat;
+    margin-bottom: 1.5rem;
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 4.5rem);
+}
+
+/* Title and History */
+
+.row {
+    margin: 4.5rem 0;
+}
+
+.painting1 {
+    background: url('../img/painting1.jpg') center / cover no-repeat;
+    height: 100%;
+    padding: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.painting1 > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 70%;
+    margin: auto;
+}
+
+.painting1 > div div {
+    width: 45%;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(3px);
+    border-radius: 3px;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+/* Books */
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 4.5rem;
+}
+
+.books h2 {
+    color: rgba(0,0,0,0.6);
+    display: block;
+    width: 100%;
+}
+
+.painting2 {
+    background: url('../img/painting2.jpg') center / cover no-repeat;
+    height: 25.5rem;
+    display: flex;
+    padding: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.part1 {
+    width: calc(55% - 3rem);
+}
+
+.part1 p,
+.part2 p {
+    padding: 0 1.5rem;
+}
+
+.painting3 {
+    background: url('../img/painting3.jpg') center / cover no-repeat;
+    height: 25.5rem;
+    display: flex;
+    padding: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.part2 {
+    width: 45%;
+}
+
+.books h3 {
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+/* Characters */
+
+.characters > div {
+    display: flex;
+}
+
+.additional > div {
+    display: flex;
+}
+
+.block {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.block2 {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.block,
+.block2 {
+    color: white;
+    width: 55%;
+    padding: 3rem;
+}
+
+.block h3,
+.block2 h3 {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+
+
+.block h6,
+.block2 h6 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 0;
+}
+
+.block p,
+.block2 p {
+    margin: 1.5rem;
+}
+
+.block svg path,
+.block2 svg path {
+    fill: white;
+}
+
+
+.block > div,
+.block2 > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block > div div,
+.block2 > div div {
+    width: calc(50% - 3rem);
+}
+
+.block > div div:nth-child(odd),
+.block2 > div div:nth-child(odd) {
+    margin-right: 3rem;
+}
+
+.painting4 {
+    background: url('../img/painting4.jpg') right / cover no-repeat;
+    height: 79.5rem;
+    width: 45%;
+}
+
+.painting5 {
+    background: url('../img/painting5.jpg') center / cover no-repeat;
+    height: 54rem;
+    width: 45%;
+}

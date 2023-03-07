@@ -1,0 +1,57 @@
+/* Box-Sizing Rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Setting core root defaults. */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Setting core body defaults. */
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+}
+
+/* Removes default margins. */
+body, 
+h1, 
+h2, 
+h3, 
+h4, 
+p, 
+figure, 
+blockquote, 
+dl, 
+dd {
+    margin: 0;
+}
+
+/* Removes default list style on unordered lists. */
+ul {
+    list-style-type: none;
+}
+
+/* Makes images flexible. */
+img,
+picture {
+    display: block;
+    max-width: 100%;
+}
+
+/* Removes all animations and transitions for people who
+   prefer not to see them. */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
